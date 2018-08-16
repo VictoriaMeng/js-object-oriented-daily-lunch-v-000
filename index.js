@@ -10,3 +10,11 @@ class Neighborhood {
     store.neighborhoods.push(this);
   };
 };
+
+class Customer {
+  
+};
+
+class Meal {
+  
+};
