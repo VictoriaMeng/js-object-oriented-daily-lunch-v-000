@@ -55,8 +55,8 @@ class Meal {
     return this.deliveries().map(d => d.customer());
   };
 
-  byPrice() {
-    
+  static byPrice() {
+
   };
 };
 
