@@ -38,8 +38,8 @@ class Customer {
     return this.deliveries().map(d => d.meal());
   }
 
-  static totalSpent() {
-    return store.customers.map(c => c.price).reduce();
+  totalSpent() {
+    return this.meals().map(c => c.price).reduce();
   };
 };
 
