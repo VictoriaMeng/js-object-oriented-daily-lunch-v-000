@@ -18,7 +18,7 @@ class Neighborhood {
   };
 
   customers() {
-    return this.deliveries().map(d => d.customer());
+    return store.customers.filter(c => c.neighborhoodId === this.id);
   }
 };
 
@@ -50,6 +50,6 @@ class Delivery {
   };
 
   customer() {
-    return store.customers.find(c => c.id == this.customerId0)
+    return store.customers.find(c => c.id == this.customerId)
   }
 };
