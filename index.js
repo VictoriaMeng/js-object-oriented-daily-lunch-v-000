@@ -22,7 +22,7 @@ class Neighborhood {
   }
 
   meals() {
-    return this.deliveries().map(d => d.meal;
+    return this.deliveries().map(d => d.meal).uniq;
   }
 };
 
