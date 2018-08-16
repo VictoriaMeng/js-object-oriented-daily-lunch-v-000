@@ -52,7 +52,7 @@ class Meal {
   };
 
   customers() {
-    return this.deliveries().map(d => d.customer);
+    return this.deliveries().map(d => d.customer());
   };
 };
 
