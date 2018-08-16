@@ -50,6 +50,6 @@ class Delivery {
   };
 
   customer() {
-    return store.customers.find(c => c.id == this.customerId0;)
+    return store.customers.find(c => c.id == this.customerId0)
   }
 };
