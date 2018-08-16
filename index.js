@@ -52,4 +52,8 @@ class Delivery {
   customer() {
     return store.customers.find(c => c.id == this.customerId)
   }
+
+  meal() {
+    return store.meals.find(m => m.id == this.mealId);
+  };
 };
