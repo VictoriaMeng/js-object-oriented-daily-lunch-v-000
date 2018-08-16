@@ -39,7 +39,7 @@ class Customer {
   }
 
   static totalSpent() {
-
+    return store.customers.map(c => c.price).reduce();
   };
 };
 
