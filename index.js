@@ -48,7 +48,7 @@ class Meal {
   };
 
   deliveries() {
-    return store.deliveries.filter(d => d.mealId === d.id);
+    return store.deliveries.filter(d => d.mealId === this.id);
   };
 };
 
