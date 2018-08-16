@@ -39,7 +39,7 @@ class Customer {
   }
 
   totalSpent() {
-    return this.meals().map(c => c.price).reduce(0, 0, 0);
+    return this.meals().reduce((memo, meal) => memo + meal.price);
   };
 };
 
