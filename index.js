@@ -60,6 +60,7 @@ class Meal {
       return b.price - a.price;
     });
   };
+
 };
 
 class Delivery {
