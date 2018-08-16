@@ -54,6 +54,10 @@ class Meal {
   customers() {
     return this.deliveries().map(d => d.customer());
   };
+
+  byPrice() {
+
+  };
 };
 
 class Delivery {
