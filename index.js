@@ -23,8 +23,8 @@ class Customer {
 };
 
 class Meal {
-  constructor() {
-    
+  constructor(title) {
+    this.title = title;
   };
 };
 
