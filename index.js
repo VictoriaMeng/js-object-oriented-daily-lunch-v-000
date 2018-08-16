@@ -23,7 +23,9 @@ class Customer {
 };
 
 class Meal {
-
+  constructor() {
+    
+  };
 };
 
 class Delivery {
