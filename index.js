@@ -12,9 +12,13 @@ class Neighborhood {
 };
 
 class Customer {
-  
+
 };
 
 class Meal {
-  
+
+};
+
+class Delivery {
+
 };
