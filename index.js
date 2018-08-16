@@ -38,6 +38,7 @@ class Delivery {
     this.mealId = mealId;
     this.neighborhoodId = neighborhoodId;
     this.customerId = customerId;
+    this.id = ++deliverId;
     store.deliveries.push(this);
   };
 };
