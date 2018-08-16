@@ -56,7 +56,7 @@ class Meal {
   };
 
   byPrice() {
-
+    
   };
 };
 
