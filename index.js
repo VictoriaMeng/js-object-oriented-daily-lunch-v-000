@@ -18,6 +18,7 @@ class Customer {
     this.name = name;
     this.id = ++customerId;
     this.neighborhoodId = neighborhoodId;
+    store.neighborhoods.push(this);
   }
 };
 
