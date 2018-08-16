@@ -56,4 +56,8 @@ class Delivery {
   meal() {
     return store.meals.find(m => m.id == this.mealId);
   };
+
+  neighborhood() {
+    return store.neighborhoods.find(n => n.id == this.neighborhoodId);
+  }
 };
