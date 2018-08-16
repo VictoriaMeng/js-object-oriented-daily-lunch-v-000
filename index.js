@@ -18,7 +18,7 @@ class Neighborhood {
   };
 
   customers() {
-
+    return this.deliveries().map(d => d.customer());
   }
 };
 
