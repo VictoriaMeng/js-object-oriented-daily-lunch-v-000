@@ -31,7 +31,7 @@ class Customer {
   };
 
   deliveries() {
-
+    return store.deliveries.filter(d => d.customerId === this.id);
   };
 };
 
