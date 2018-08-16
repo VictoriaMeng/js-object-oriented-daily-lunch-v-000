@@ -48,4 +48,8 @@ class Delivery {
     this.id = ++deliverId;
     store.deliveries.push(this);
   };
+
+  customer() {
+    return store.customers.find(c => c.id == this.customerId0;)
+  }
 };
