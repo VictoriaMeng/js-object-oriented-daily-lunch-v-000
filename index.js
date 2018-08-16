@@ -28,7 +28,11 @@ class Customer {
     this.id = ++customerId;
     this.neighborhoodId = neighborhoodId;
     store.customers.push(this);
-  }
+  };
+
+  deliveries() {
+
+  };
 };
 
 class Meal {
