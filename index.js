@@ -22,7 +22,7 @@ class Neighborhood {
   }
 
   meals() {
-    return [...new Set(this.deliveries().map(d => d.meal()))];
+    return [...new Set(this.deliveries().map(d => d.meal)];
   }
 };
 
