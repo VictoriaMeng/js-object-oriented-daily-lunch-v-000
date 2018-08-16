@@ -7,4 +7,4 @@ let neighborhoodId = 0;
 
 class Neighborhood {
 
-};
+}
