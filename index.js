@@ -35,7 +35,7 @@ class Customer {
   };
 
   meals() {
-    return this.deliveries().map(d => d.meal);
+    return this.deliveries().map(d => d.meal());
   }
 };
 
